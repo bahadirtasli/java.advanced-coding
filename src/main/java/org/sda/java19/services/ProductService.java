@@ -5,11 +5,12 @@ import org.sda.java19.model.Product;
 import org.sda.java19.model.ProductCategory;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * Service to handle product related operations
  *
- * @author Vinod John
+ * @author bahadir tasli
  */
 public interface ProductService {
     /**
@@ -28,14 +29,14 @@ public interface ProductService {
      * To delete a product in a warehouse by its name
      * @param name name of the product
      */
-    void deleteProductByName(String name);
+    void deleteProductByName(String name) throws WarehouseNotFoundException;
 
     /**
      * To get a product by its name from warehouse
      * @param name name of the product
      * @return Product
      */
-    Product getProductByName(String name);
+    Optional<Product> getProductByName(String name) throws WarehouseNotFoundException;
 
     /**
      * To get a lis tof all products from the warehouse by a given product category

@@ -33,6 +33,51 @@ public class Data {
         product1.setAvailable(true);
         product1.setCurrency(Currency.EUR);
 
+        Product pliers =new Product();
+        pliers.setName("Pliers");
+        pliers.setPrice(BigDecimal.valueOf(15));
+        pliers.setProductCategory(ProductCategory.HARDWARE);
+
+        Product scissors =new Product();
+        scissors.setName("Scissors");
+        scissors.setPrice(BigDecimal.valueOf(10));
+        pliers.setProductCategory(ProductCategory.HARDWARE);
+
+        Product axe = new Product();
+        axe.setName("Axe");
+        axe.setPrice(BigDecimal.valueOf(5));
+        pliers.setProductCategory(ProductCategory.HARDWARE);
+
+        Product food1 = new Product();
+        food1.setName("Food1");
+        food1.setPrice(BigDecimal.valueOf(15));
+        food1.setProductCategory(ProductCategory.FOOD);
+
+        Product food2 = new Product();
+        food2.setName("Food2");
+        food2.setPrice(BigDecimal.valueOf(10));
+        food2.setProductCategory(ProductCategory.FOOD);
+
+        Product food3 = new Product();
+        food3.setName("Food3");
+        food3.setPrice(BigDecimal.valueOf(5));
+        food3.setProductCategory(ProductCategory.FOOD);
+
+        Product pants = new Product();
+        pants.setName("Pants");
+        pants.setPrice(BigDecimal.valueOf(15));
+        pants.setProductCategory(ProductCategory.CLOTHING);
+
+        Product thsirt = new Product();
+        thsirt.setName("thsirt");
+        thsirt.setPrice(BigDecimal.valueOf(10));
+        thsirt.setProductCategory(ProductCategory.CLOTHING);
+
+        Product jacket = new Product();
+        jacket.setName("Jacket");
+        jacket.setPrice(BigDecimal.valueOf(5));
+        jacket.setProductCategory(ProductCategory.CLOTHING);
+
         return List.of(product, product1);
     }
 }

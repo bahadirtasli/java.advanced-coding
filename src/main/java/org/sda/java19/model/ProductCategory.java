@@ -7,5 +7,7 @@ package org.sda.java19.model;
  */
 public enum ProductCategory {
     FOOD,
-    CLOTHING
+    CLOTHING,
+
+    HARDWARE
 }
