@@ -7,7 +7,7 @@ import java.time.LocalDate;
 /**
  * Person base class
  *
- * @author Vinod John
+ * @author bahadir tasli
  */
 @Data
 public class Person {

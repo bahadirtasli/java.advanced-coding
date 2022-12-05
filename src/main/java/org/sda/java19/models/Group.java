@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * Group model
  *
- * @author Vinod John
+ * @author bahadir tasli
  */
 @Data
 public class Group {

@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * Student model extends the base class
  *
- * @author Vinod John
+ * @author bahadir tasli
  */
 @Data
 public class Student extends Person {

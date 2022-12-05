@@ -3,7 +3,7 @@ package org.sda.java19.exceptions;
 /**
  * Exception to handle threshold of the students in the group
  *
- * @author Vinod John
+ * @author bahadir tasli
  */
 public class MaximumNumberOfStudentsReachedException extends Exception {
     public MaximumNumberOfStudentsReachedException(String groupName) {
